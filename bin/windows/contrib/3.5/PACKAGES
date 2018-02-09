@@ -1,0 +1,7 @@
+Package: taxstats
+Version: 0.0.5.1415
+Depends: R (>= 3.2.0)
+Imports: hutils
+Suggests: data.table
+License: CC BY 4.0
+File: taxstats_0.0.5.1415.zip

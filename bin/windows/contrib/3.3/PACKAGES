@@ -1,0 +1,7 @@
+Package: taxstats
+Version: 0.0.5.1415
+Depends: R (>= 3.2.3)
+Imports: dplyr (>= 0.5.0), data.table
+License: CC BY 4.0
+File: taxstats_0.0.5.1415.zip
+
