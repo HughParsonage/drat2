@@ -6,7 +6,6 @@ Suggests: testthat, roxygen2, Census2016.spec
 License: CC BY 4.0
 MD5sum: 57b9f08305b131d095589380006b2b2d
 NeedsCompilation: no
-File: Census2016.DataPack_0.1.9.tar.gz
 
 Package: drat
 Version: 0.0.4
@@ -14,7 +13,6 @@ Suggests: git2r, knitr
 License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
-File: drat_0.0.4.tar.gz
 
 Package: grattanReporter
 Version: 0.25.2
@@ -24,18 +22,15 @@ Suggests: testthat, devtools, stringi, readr
 License: GPL-2
 MD5sum: 694da4e1ebeda238537d203c1d9a10ac
 NeedsCompilation: no
-File: grattanReporter_0.25.2.tar.gz
 
 Package: hutils
 Version: 0.10.0
 Depends: R (>= 3.1.0)
 Imports: data.table, magrittr, stats, utils, fastmatch
-Suggests: testthat, datasets, dplyr, microbenchmark, knitr, rmarkdown, nycflights13, geosphere,
-           ggplot2
+Suggests: testthat, datasets, dplyr, microbenchmark, knitr, rmarkdown, nycflights13, geosphere, ggplot2
 License: GPL-3
 MD5sum: 31c30eaf189b1012af80269ce78e2ab1
 NeedsCompilation: no
-File: hutils_0.10.0.tar.gz
 
 Package: taxstats
 Version: 0.0.5.1415
@@ -45,15 +40,20 @@ Suggests: data.table
 License: CC BY 4.0
 MD5sum: 6e3556de507ed30dd4c0037e291d00f4
 NeedsCompilation: no
-File: taxstats_0.0.5.1415.tar.gz
+
+Package: taxstats1516
+Version: 1.0.0
+Depends: R (>= 3.1.0), data.table
+License: CC0
+MD5sum: 3fca3ef42d0faedc00c1d3cbf281e92e
+NeedsCompilation: no
 
 Package: TeXCheckR
 Version: 0.5.1
 Depends: R (>= 3.3.0)
-Imports: clisymbols, crayon, data.table, fastmatch, hunspell, hutils (>= 0.8.0), magrittr,
-           rstudioapi, stats, tools, zoo
+Imports: clisymbols, crayon, data.table, fastmatch, hunspell, hutils (>= 0.8.0), magrittr, rstudioapi,
+            stats, tools, zoo
 Suggests: devtools, readr, stringi, testthat
 License: GPL-2
 MD5sum: 2d2443b053a6b218ef01e36c08fb31b3
 NeedsCompilation: no
-File: TeXCheckR_0.5.1.tar.gz
